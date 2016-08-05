@@ -1,0 +1,380 @@
+\begin{thebibliography}{}
+
+\bibitem[Aggarwal, 2013]{AggarwalOutliers}
+Aggarwal, C. (2013).
+\newblock {\em Outlier Analysis}.
+\newblock Springer Verlag.
+
+\bibitem[Anscombe, 1960]{AnscombeOutliers}
+Anscombe, F. (1960).
+\newblock Rejection of outliers.
+\newblock {\em Technometrics}, 2:123--147.
+
+\bibitem[Atkinson, 1985]{Atkinson}
+Atkinson, A. (1985).
+\newblock {\em Plots, Transformations and Regression: An Introduction to
+  Graphical Methods of Diagnostic Regression Analysis}.
+\newblock Oxford University Press.
+
+\bibitem[Barnett and Lewis, 1994]{BarnettLewis}
+Barnett, V. and Lewis, T. (1994).
+\newblock {\em Outliers in Statistical Data}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Belsley et~al., 1980]{BelsleyKuhWelsch}
+Belsley, D.~A., Kuh, E., and Welsch, R.~E. (1980).
+\newblock {\em Regression Diagnostics: Identifying Influential Data and Sources
+  of Collinearity}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Box and Jenkins, 1976]{BoxJenkins}
+Box, G. E.~P. and Jenkins, G.~M. (1976).
+\newblock {\em Time Series Analysis: Forecasting and Control (rev. ed.)}.
+\newblock Holden-Day, Oakland, CA.
+
+\bibitem[Breaban and Luchian, 2013]{BreabanLuchian}
+Breaban, M. and Luchian, H. (2013).
+\newblock Outlier detection with nonlinear projection pursuit.
+\newblock {\em International Journal of Computers Communications \& Control},
+  8(1):30--36.
+
+\bibitem[Breunig et~al., 2000]{BreunigLOF}
+Breunig, M.~M., Kriegel, H.-P., Ng, R.~T., and Sander, J. (2000).
+\newblock {LOF}: {I}dentifying density-based local outliers.
+\newblock In {\em Proceedings of the 2000 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '00, pages 93--104, New York, NY, USA. ACM.
+
+\bibitem[Burridge and Taylor, 2006]{BurridgeTaylor}
+Burridge, P. and Taylor, A. (2006).
+\newblock Additive outlier detection via extreme-value theory.
+\newblock {\em Journal of Time Series Analysis}, 27:685--701.
+
+\bibitem[Caroni and Prescott, 1995]{CaroniPrescott}
+Caroni, C. and Prescott, P. (1995).
+\newblock On {R}ohlf's method for the detection of outliers in multivariate
+  data.
+\newblock {\em Journal of Multivariate Analysis}, 52:295--307.
+
+\bibitem[Chandola et~al., 2009]{ChandolaBanerjeeKumar}
+Chandola, V., Banerjee, A., and Kumar, V. (2009).
+\newblock Anomaly detection: A survey.
+\newblock {\em ACM Comput. Surveys}, 41:15:1--15:58.
+
+\bibitem[Cleveland, 1985]{Cleveland85}
+Cleveland, W.~S. (1985).
+\newblock {\em The Elements of Graphing Data}.
+\newblock Hobart Press, Summit, NJ.
+
+\bibitem[Cook and Weisberg, 1982]{CookWeisberg82}
+Cook, R.~D. and Weisberg, S. (1982).
+\newblock {\em Residuals and Influence in Regression}.
+\newblock Chapman \& Hall, London.
+
+\bibitem[Dawson, 2011]{Dawson}
+Dawson, R. (2011).
+\newblock How significant is a boxplot outlier?
+\newblock {\em Journal of Statistics Education}, 19.
+
+\bibitem[Dixon, 1951]{DixonOutlierTest}
+Dixon, W. (1951).
+\newblock Ratios involving extreme values.
+\newblock {\em Annals of Mathematical Statistics}, 22:68--78.
+
+\bibitem[Donoho, 1982]{Donoho}
+Donoho, D. (1982).
+\newblock Breakdown properties of multivariate location estimators.
+\newblock Technical report, Harvard University.
+
+\bibitem[Donoho and Huber, 1983]{DonohoHuber}
+Donoho, D. and Huber, P. (1983).
+\newblock The notion of breakdown point.
+\newblock In Bickel, P., Doksum, K., and Hodges, J., editors, {\em A
+  Festschrift for Erich L. Lehman}, pages 157--184. Wadsworth, Belmont, CA.
+
+\bibitem[Ester et~al., 1996]{DBSCAN}
+Ester, M., Kriegel, H.-P., Sander, J., and Xu, X. (1996).
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock In Simoudis, E., Han, J., and Fayyad, U.~M., editors, {\em Second
+  International Conference on Knowledge Discovery and Data Mining}, pages
+  226--231. AAAI Press.
+
+\bibitem[for Artificial~Intelligence, 2016]{ClusterOutlierURL}
+for Artificial~Intelligence, G. R.~C. (2016).
+\newblock dataset: dfki-artificial-3000-unsupervised-ad.csv.
+\newblock \url{http://madm.dfki.de/downloads}.
+\newblock Accessed: 2016-02-08.
+
+\bibitem[Fraley and Raftery, 2002]{FraleyRaftery}
+Fraley, C. and Raftery, A. (2002).
+\newblock Model-based clustering, discriminant analysis, and density
+  estimation.
+\newblock {\em Journal of the American Statistical Association}, 97:611--631.
+
+\bibitem[Frigge et~al., 1989]{FriggeHoaglinIglewicz}
+Frigge, M., Hoaglin, D., and Iglewicz, B. (1989).
+\newblock Some implementations of the boxplot.
+\newblock {\em The American Statistician}, 43:50--54.
+
+\bibitem[Gnanadesikan, 1977]{Gnanadesikan}
+Gnanadesikan, R. (1977).
+\newblock {\em Methods for statistical data analysis of multivariate
+  observations}.
+\newblock John Wiley \& Sons, New York.
+
+\bibitem[Greenacre, 1984]{CA}
+Greenacre, M. (1984).
+\newblock {\em Theory and Applications of Correspondence Analysis}.
+\newblock Academic Press.
+
+\bibitem[Grubbs, 1950]{Grubbs}
+Grubbs, F. (1950).
+\newblock Sample criteria for testing outlying observations.
+\newblock {\em The Annals of Mathematical Statistics}, 21:27--58.
+
+\bibitem[Hadi and Simonoff, 1993]{HadiSimonoff}
+Hadi, A. and Simonoff, J. (1993).
+\newblock Procedures for the identification of multiple outliers in linear
+  models.
+\newblock {\em Journal of the American Statistical Association}, 88:1264--1272.
+
+\bibitem[Hart, 2016]{Gutenberg}
+Hart, M. (2016).
+\newblock Project {G}utenberg.
+\newblock \url{https://www.gutenberg.org}.
+
+\bibitem[Hartigan, 1975]{ClusteringAlgorithms}
+Hartigan, J. (1975).
+\newblock {\em Clustering Algorithms}.
+\newblock John Wiley \& Sons, New York.
+
+\bibitem[Hawkins, 1980]{Hawkins}
+Hawkins, D. (1980).
+\newblock {\em Identification of Outliers}.
+\newblock {Chapman \& Hall/CRC}.
+
+\bibitem[Hinneburg et~al., 1999]{Hinneburg}
+Hinneburg, A., Keim, D., and Wawryniuk, M. (1999).
+\newblock {HD-Eye}: Visual mining of high-dimensional data.
+\newblock {\em IEEE Computer Graphics and Applications}, 19(5):22--31.
+
+\bibitem[Hoaglin and Iglewicz, 1987]{HoaglinIglewicz}
+Hoaglin, D. and Iglewicz, B. (1987).
+\newblock Fine tuning some resistant rules for outlier labeling.
+\newblock {\em Journal of the American Statistical Association}, 82:1147--1149.
+
+\bibitem[Hoaglin et~al., 1986]{HoaglinIglewiczTukey}
+Hoaglin, D., Iglewicz, B., and Tukey, J. (1986).
+\newblock Performance of some resistant rules for outlier labeling.
+\newblock {\em Journal of the American Statistical Association}, 81:991--999.
+
+\bibitem[Hodge, 2011]{HodgeOutliers}
+Hodge, V. (2011).
+\newblock {\em Outlier and Anomaly Detection: {A} Survey of Outlier and Anomaly
+  Detection Methods}.
+\newblock LAP LAMBERT Academic Publishing.
+
+\bibitem[Hofmann et~al., 2011]{letter-value-box-plot}
+Hofmann, H., Kafadar, K., and Wickham, H. (2011).
+\newblock Letter-value plots: Boxplots for large data.
+\newblock Technical report, had.co.nz.
+
+\bibitem[Hubert and Vandervieren, 2008]{HubertVandervieren}
+Hubert, M. and Vandervieren, E. (2008).
+\newblock An adjusted boxplot for skewed distributions.
+\newblock {\em Computational Statistics \& Data Analysis}, 52:5186--5201.
+
+\bibitem[Iglewicz and Hoaglin, 1993]{IglewiczHoaglin}
+Iglewicz, I. and Hoaglin, D. (1993).
+\newblock How to detect and handle outliers.
+\newblock In Mykytka, E., editor, {\em The ASQC Basic References in Quality
+  Control: Statistical Techniques}. ASQC.
+
+\bibitem[Jiang et~al., 2001]{JiangOutlierClustering}
+Jiang, M., Tseng, S., and Su, C. (2001).
+\newblock Two-phase clustering process for outliers detection.
+\newblock {\em Pattern Recognition Letters}, 22:691--700.
+
+\bibitem[Jobe and Pokojovy, 2015]{Jobe}
+Jobe, J. and Pokojovy, M. (2015).
+\newblock A cluster-based outlier detection scheme for multivariate data.
+\newblock {\em Journal of the American Statistical Association},
+  110:1543--1551.
+
+\bibitem[Johnson and Lindenstrauss, 1984]{JohnsonLindenstrauss}
+Johnson, W.~B. and Lindenstrauss, J. (1984).
+\newblock {L}ipschitz mapping into {H}ilbert space.
+\newblock {\em Contemporary Mathematics}, 26:189--206.
+
+\bibitem[Kandogan, 2001]{Kandogan:2001:VMC:502512.502530}
+Kandogan, E. (2001).
+\newblock Visualizing multi-dimensional clusters, trends, and outliers using
+  star coordinates.
+\newblock In {\em Proceedings of the Seventh ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}, KDD '01, pages 107--116,
+  New York, NY, USA. ACM.
+
+\bibitem[Kandogan, 2012]{Kandogan}
+Kandogan, E. (2012).
+\newblock Just-in-time annotation of clusters, outliers, and trends in
+  point-based data visualizations.
+\newblock In {\em Proceedings of the 2012 IEEE Conference on Visual Analytics
+  Science and Technology (VAST)}, VAST '12, pages 73--82, Washington, DC, USA.
+  IEEE Computer Society.
+
+\bibitem[Knuth, 1993]{StanfordGraphBase}
+Knuth, D. (1993).
+\newblock {\em The Stanford GraphBase: {A} Platform for combinatorial
+  computing}.
+\newblock Addison-Wesley, Reading, MA.
+
+\bibitem[Kohavi and Becker, 1996]{adult}
+Kohavi, R. and Becker, B. (1996).
+\newblock Adult data set.
+\newblock \url{http://archive.ics.uci.edu/ml/datasets/Adult}.
+
+\bibitem[Kriegel et~al., 2009]{KriegelKrogerSchubertZimek}
+Kriegel, H.-P., Kr\"oger, P., Schubert, E., and Zimek, A. (2009).
+\newblock Outlier detection in axis-parallel subspaces of high dimensional
+  data.
+\newblock In {\em 13th Pacific-Asia Conf. on Knowledge Discovery and Data
+  Mining (PAKDD 2009)}, Tangkok, Thailand.
+
+\bibitem[Levenshtein, 1966]{LevenshteinDistance}
+Levenshtein, V. (1966).
+\newblock Binary codes capable of correcting deletions, insertions, and
+  reversals.
+\newblock {\em Soviet Physics Doklady}, 10:707--710.
+
+\bibitem[Lin et~al., 2008]{LinMST}
+Lin, J., Ye, D., Chen, C., and Gao, M. (2008).
+\newblock Minimum spanning tree based spatial outlier mining and its
+  applications.
+\newblock In {\em Proceedings of the 3rd International Conference on Rough Sets
+  and Knowledge Technology}, pages 508--515, Berlin, Heidelberg.
+  Springer-Verlag.
+
+\bibitem[Newman et~al., 2006]{Newman0}
+Newman, M. E.~J., Barabasi, A.-L., and Watts, D.~J. (2006).
+\newblock {\em The Structure and Dynamics of Networks}.
+\newblock Princeton University Press.
+
+\bibitem[Novotny and Hauser, 2006]{Novotny:2006:OFV:1187627.1187805}
+Novotny, M. and Hauser, H. (2006).
+\newblock Outlier-preserving focus+context visualization in parallel
+  coordinates.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  12(5):893--900.
+
+\bibitem[Pamula et~al., 2011]{OutlierClustering}
+Pamula, R., Deka, J., and Nandi, S. (2011).
+\newblock An outlier detection method based on clustering.
+\newblock In {\em International Conference on Emerging Applications of
+  Information Technology, EAIT}, pages 253--256.
+
+\bibitem[Peter and Victor, 2010]{JohnVictor}
+Peter, S. and Victor, S. (2010).
+\newblock Hybrid -- approach for outlier detection using minimum spanning tree.
+\newblock {\em International Journal of Computational \& Applied Mathematics},
+  5:621.
+
+\bibitem[Rohlf, 1975]{Rohlf}
+Rohlf, F. (1975).
+\newblock Generalization of the gap test for the detection of multivariate
+  outliers.
+\newblock {\em Biometrics}, 31:93--101.
+
+\bibitem[Rousseeuw, 1984]{RousseeuwLMS}
+Rousseeuw, P. (1984).
+\newblock Least median of squares regression.
+\newblock {\em Journal of the American Statistical Association}, 79:871--880.
+
+\bibitem[Rousseeuw and Zomeren, 1990]{RousseeuwVanZomeren}
+Rousseeuw, P. and Zomeren, B.~V. (1990).
+\newblock Unmasking multivariate outliers and leverage points.
+\newblock {\em Journal of the American Statistical Association}, 85:633--651.
+
+\bibitem[Rousseeuw and Leroy, 1987]{RousseeuwLeroy}
+Rousseeuw, P.~J. and Leroy, A. (1987).
+\newblock {\em Robust Regression \& Outlier Detection}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Ruiz-Gazen et~al., 2010]{OutlierPP}
+Ruiz-Gazen, A., Marie-Sainte, S.~L., and Berro, A. (2010).
+\newblock Detecting multivariate outliers using projection pursuit with
+  particle swarm optimization.
+\newblock In {\em COMPSTAT2010}, pages 89--98.
+
+\bibitem[Salton and Buckley, 1988]{SaltonTFIDF}
+Salton, G. and Buckley, C. (1988).
+\newblock Term-weighting approaches in automatic text retrieval.
+\newblock {\em Information Processing \& Management}, 24(5):513--523.
+
+\bibitem[Schwarz, 2008]{SchwarzOutliers}
+Schwarz, K. (2008).
+\newblock {\em Wind Dispersion of Carbon Dioxide Leaking from Underground
+  Sequestration, and Outlier Detection in Eddy Covariance Data using Extreme
+  Value Theory}.
+\newblock PhD thesis, Physics, University of California, Berkeley.
+
+\bibitem[Stahel, 1981]{Stahel}
+Stahel, W. (1981).
+\newblock Breakdown of covariance estimators.
+\newblock Technical report, Fachgrupp fur Statistik.
+
+\bibitem[Thode, 2002]{thode2002testing}
+Thode, H. (2002).
+\newblock {\em Testing For Normality}.
+\newblock Taylor \& Francis.
+
+\bibitem[Tukey, 1977]{EDA}
+Tukey, J.~W. (1977).
+\newblock {\em Exploratory Data Analysis}.
+\newblock Addison-Wesley Publishing Company, Reading, MA.
+
+\bibitem[Umeyama, 1988]{graphMatchingUmeyama}
+Umeyama, S. (1988).
+\newblock An eigendecomposition approach to weighted graph matching problems.
+\newblock {\em {IEEE} Transactions on Pattern Analysis and Machine
+  Intelligence}, 10:695--703.
+
+\bibitem[Wainer and Schacht, 1978]{WainerSchacht}
+Wainer, H. and Schacht, S. (1978).
+\newblock Gapping.
+\newblock {\em Psychometrika}, 43:203--212.
+
+\bibitem[Wilkinson, 1999a]{dotplots}
+Wilkinson, L. (1999a).
+\newblock Dot plots.
+\newblock {\em The American Statistician}, 53:276--281.
+
+\bibitem[Wilkinson, 1999b]{GoG}
+Wilkinson, L. (1999b).
+\newblock {\em The Grammar of Graphics}.
+\newblock Springer-Verlag, New York.
+
+\bibitem[Wilkinson et~al., 2005]{Scagnostics}
+Wilkinson, L., Anand, A., and Grossman, R. (2005).
+\newblock Graph-theoretic scagnostics.
+\newblock In {\em Proceedings of the {IEEE} Information Visualization 2005},
+  pages 157--164. {IEEE} Computer Society Press.
+
+\bibitem[Wilkinson et~al., 2006]{ScagnosticsTVCG}
+Wilkinson, L., Anand, A., and Grossman, R. (2006).
+\newblock High-dimensional visual analytics: Interactive exploration guided by
+  pairwise views of point distributions.
+\newblock {\em {IEEE} Transactions on Visualization and Computer Graphics},
+  12(6):1363--1372.
+
+\bibitem[Zachary, 1977]{KarateClub}
+Zachary, W. (1977).
+\newblock An information flow model for conflict and fission in small groups.
+\newblock {\em Journal of Anthropological Research}, 33:452--473.
+
+\bibitem[Zahn, 1971]{ZahnClustering}
+Zahn, C.~T. (1971).
+\newblock Graph-theoretical methods for detecting and describing {G}estalt
+  clusters.
+\newblock {\em IEEE Transactions on Computers}, C-20:68--86.
+
+\end{thebibliography}

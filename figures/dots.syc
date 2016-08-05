@@ -1,0 +1,33 @@
+begin
+den tax/hei=2in,wid=2in,stick,ax=2,sc=2
+pplot tax/norm,xmin=100,xmax=800,ymin=-4,ymax=4,hei=2in,wid=2in,loc=3in,0,stick,ax=2,sc=2
+end
+
+begin
+select tax < 600
+den tax/hei=2in,wid=2in,stick,ax=2,sc=2,hei=2in,wid=2in
+pplot tax/norm,ymin=-4,ymax=4,stick,ax=2,sc=2,hei=2in,wid=2in,loc=3in,0
+select
+end
+
+rseed = 12347
+let z = zrn
+let w = z
+if z > 2 then let z=2 *urn + 2
+if z > 3.5 then let z=5
+if z > 2.88 and z < 2.9 then let z = 4
+if z > 1.64 and z < 1.65 then let z=3
+if z > 1.47 and z < 1.48 then let z = 1.9
+if z > 1 and z < 1.1 then let z =.8
+if z < -1.2 then let z=-.1
+if z <> 5 then let z = z-.2
+if w > 2 then let w=4*urn+2
+if w > 2 and w < 3 then let w =2*urn
+if w > 3 and w < 4 then let w = 1.1+zrn
+if w > 4 then let w = 5
+if w < -1.8 then let w = .9
+stats w,z
+begin
+den z/dit,fill,xmin=-5,xmax=5,spike,hei=2in,wid=2in,stick
+den w/dit,fill,xmin=-5,xmax=5,spike,hei=2in,wid=2in,loc=2.5in,0,stick
+end

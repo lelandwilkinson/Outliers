@@ -1,0 +1,81 @@
+basic
+repeat 200
+let n = case
+if n < 100 then let x = zrn - 5
+if n > 99 then let x = zrn + 5
+run 
+let c$ = "blue"
+if n = 201 then let c$ = "red"
+corr
+
+den x/dit,fill,stick,color=c$
+
+begin
+den residual/dit,fill,stick,hei=2in,wid=2in
+pplot residual/stick,fill,hei=2in,wid=2in,loc=2.5in,0,ax=2,sc=2
+end
+
+basic
+rseed=13579
+repeat 100
+let x = zrn
+let y = x + .9 * zrn
+let z = y + .9*zrn
+let c$="blue"
+let s = 1.5
+let t = .5
+if case=83 then for
+let c$="red"
+let s = 2.5
+let t = 2.5
+next
+run
+
+begin
+plot z*y*x/hei=4in,wid=4in,fill,xmin=-5,xmax=5,ymin=-5,ymax=5,zmin=-5,zmax=5,size=0
+facet = xy
+plot y*x/hei=4in,wid=4in,ax=4,sc=0,color=c$,xmin=-5,xmax=5,ymin=-5,ymax=5,size=t,fill,legend=none,ell=.95
+facet = zx
+depth = 4in
+plot z*x/hei=4in,wid=4in,ax=4,sc=0,color=c$,xmin=-5,xmax=5,ymin=-5,ymax=5,size=t,fill,legend=none,ell=.95
+facet = zy
+depth = 4in
+plot z*y/hei=4in,wid=4in,ax=4,sc=0,color=c$,xmin=-5,xmax=5,ymin=-5,ymax=5,xrev,size=t,fill,legend=none,ell=.95
+facet
+depth
+end
+
+
+begin
+plot x*z/xmin=-5,xmax=5,ymin=-5,ymax=5,fill,ax=0,sc=0
+plot x*z/ell=.95,border=hist,xmin=-5,xmax=5,ymin=-5,ymax=5,size=0
+end
+
+basic
+new
+repeat 50
+let x = case / 10
+let y = wcf(x,1,2)
+print x,y
+run
+
+let pp = 1 - exp(-((x/.31216)^7.219))
+run
+
+begin
+plot fractile * x/xmin=0,xmax=1.2,ymin=0,ymax=1,xtick=12,ytick=10,xgrid,ygrid
+fplot y = 1 - exp(-((q/.3606)^4.84));color=red,xmin=0,xmax=1.2,ymin=0,ymax=1,xtick=12,ytick=10,xgrid,ygrid
+end
+
+basic
+new
+repeat 100
+let x1 = zrn
+let x2 = -x1 + .5 * zrn
+let y = .5 * x1 + .5 * x2 + zrn
+run
+corr
+pearson y x1 x2
+mglh
+model y = constant + x1 + x2
+estimate
